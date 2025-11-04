@@ -4,7 +4,6 @@
 	padding: 0;
 }
 
-
 /* Defining Animations */
 @keyframes pageFadeInUp {
 	to {
@@ -55,7 +54,6 @@ body {
 }
 
 /* Background Effects Options */
-
 body::before {
 	content: "";
 	position: fixed;
@@ -158,6 +156,7 @@ p {
 	transform: scale(1.17);
 	border-color: var(--blue1);
 	box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
+
 }
 
 .card-grid {

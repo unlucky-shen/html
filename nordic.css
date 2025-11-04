@@ -1,3 +1,5 @@
+/* Nordic color scheme */
+
 :root {
 	--none: transparent;
 
@@ -64,7 +66,6 @@
 
 	--comment: var(--gray4);
 
-	/* Diagnostics */
 	--error: var(--red-bright);
 	--warn: var(--yellow-base);
 	--hint: var(--green-bright);

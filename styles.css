@@ -4,8 +4,8 @@
 	padding: 0;
 }
 
-/* Define Animations */
 
+/* Defining Animations */
 @keyframes pageFadeInUp {
 	to {
 		opacity: 1;
@@ -41,7 +41,7 @@
 	}
 }
 
-
+/* Main Content Text Options */
 body {
 	background-color: var(--bg);
 	color: var(--fg);
@@ -54,7 +54,8 @@ body {
 	animation: pageFadeInUp 1.5s ease forwards;
 }
 
-/*-------BACKGROUND EFFECTS BLOCK-----------------------------------------------------*/
+/* Background Effects Options */
+
 body::before {
 	content: "";
 	position: fixed;
@@ -66,18 +67,11 @@ body::before {
 	pointer-events: none;
 }
 
-/*------------------------------------------------------------------------------------*/
-
-h2 {
-	text-shadow: 1px 1px #343434;
-
-}
-
+/* HTML Elements Classes settings */
 .name {
 	font-family: 'JetBrains Mono', monospace;
 	text-shadow: 2px 2px #434343;
-	/* animation: float 4s ease-in-out infinite; */
-	animation: breathing 10.5s infinite;
+	animation: breathing 10s infinite;
 }
 
 .container {
@@ -111,10 +105,8 @@ h2 {
 	color: var(--gray4);
 	font-family: 'JetBrains Mono', monospace;
 	font-size: 1.1rem;
-	animation: breathing 10.5s infinite;
+	animation: breathing 10s infinite;
 }
-
-
 
 .experience-item ul {
 	margin-top: 0.7rem;
@@ -136,6 +128,7 @@ h2 {
 	padding-bottom: 0.4rem;
 	margin-bottom: 1rem;
 	font-weight: 600;
+	text-shadow: 1px 1px #343434;
 }
 
 p {
@@ -184,10 +177,10 @@ p {
 }
 
 .card:hover {
-	background: rgba(255, 255, 255, 0.1);
 	border-radius: 12px;
 	backdrop-filter: blur(10px);
-	border: 1px solid rgba(255, 255, 255, 0.2);
+	transform: translateY(-7px);
+	box-shadow: 4 4px 12px rgba(0, 0, 0, 0.1);
 }
 
 .card h3 {
